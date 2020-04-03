@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 $(call inherit-product, device/qcom/common/common.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pa_laurel_sprout
